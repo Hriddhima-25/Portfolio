@@ -950,6 +950,10 @@ span {
         min-width: none;
         overflow-x: hidden;
     }
+
+    .home-sci a {
+        margin: 1rem auto;;
+    }
 }
 
 @keyframes aboutSpinner {
