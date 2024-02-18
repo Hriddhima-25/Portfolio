@@ -731,6 +731,12 @@ span {
     color: var(--bg-color);
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        min-width: 600px;
+    }
+}
+
 @media (max-width: 1233px) {
     .navbar a {
         font-size: 1.6rem;
