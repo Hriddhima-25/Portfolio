@@ -953,9 +953,9 @@ span {
         overflow-x: hidden;
     }
 
-    .home-sci {
+/*     .home-sci {
         margin: .9rem auto;
-    }
+    } */
 }
 @media only screen and (max-width: 360px) {
 
