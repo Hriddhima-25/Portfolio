@@ -913,6 +913,7 @@ span {
 
     html {
         font-size: 50%;
+        overflow-x: hidden;
     }
 
     #darkMode-icon {
