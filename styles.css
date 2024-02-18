@@ -731,13 +731,23 @@ span {
     color: var(--bg-color);
 }
 
+/* breakpoints */
+
 @media only screen and (max-width: 1233px) {
+
+    body {
+        min-height: 1233px;
+    }
     .navbar a {
         font-size: 1.6rem;
     }
 }
 
 @media only screen and (max-width: 1200px) {
+
+    body {
+        min-height: 1200px;
+    }
     html {
         font-size: 55%;
         overflow-x: hidden;
@@ -745,6 +755,10 @@ span {
 }
 
 @media only screen and (max-width: 991px) {
+
+    body {
+        min-height: 991px;
+    }
     html {
         overflow-x: hidden;
     }
@@ -771,6 +785,10 @@ span {
 }
 
 @media only screen and (max-width: 884px) {
+
+    body {
+        min-height: 884px;
+    }
     html {
         overflow-x: hidden;
     }
@@ -794,6 +812,10 @@ span {
 }
 
 @media only screen and (max-width: 768px) {
+
+    body {
+        min-height: 768px;
+    }
     html {
         width: 100vw;
         overflow-x: hidden;
@@ -903,6 +925,10 @@ span {
 } 
 
 @media only screen and (max-width: 654px) {
+
+    body {
+        min-height: 654px;
+    }
     html {
         font-size: 50%;
     }
