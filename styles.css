@@ -801,9 +801,12 @@ span {
 
 @media only screen and (max-width: 768px) {
 
+    body{
+        overflow-x: hidden;
+    }
+
     html {
         width: 100vw;
-        overflow-x: hidden;
     } 
 
     .btn{
@@ -875,7 +878,7 @@ span {
     .home-sci {
         width: 25rem;
         position: static;
-        margin: 1rem auto;
+        margin: 5rem auto;
     }
  
     .home .home-info .home-content .btn-box {
@@ -944,12 +947,32 @@ span {
         font-size: 3rem;
     }
 }
+@media only screen and (max-width: 412px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .home-sci {
+        margin: .9rem auto;
+    }
+}
+@media only screen and (max-width: 360px) {
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
 
 @media only screen and (max-width: 375px) {
 
     body {
-        min-width: none;
         overflow-x: hidden;
+    }
+
+    .home-sci {
+        margin: .5rem auto;
     }
 }
 
