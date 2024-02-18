@@ -49,7 +49,7 @@ ScrollReveal().reveal('.bottom', {origin: 'bottom'})
 
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Engineering Student', 'Web Developer', 'Artist', 'Singer'],
+    strings: ['Web Developer', 'Artist', 'Singer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
