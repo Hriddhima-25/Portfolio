@@ -974,6 +974,9 @@ span {
     body {
         overflow-x: hidden;
     }
+     .home-sci {
+        margin: .5rem auto;
+    }
 }
 
 @keyframes aboutSpinner {
