@@ -957,13 +957,6 @@ span {
         margin: .5rem auto;
     }
 }
-@media only screen and (max-width: 360px) {
-
-    body {
-        overflow-x: hidden;
-    }
-}
-
 
 @media only screen and (max-width: 375px) {
 
@@ -973,6 +966,13 @@ span {
 
     .home-sci {
         margin: .5rem auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    body {
+        overflow-x: hidden;
     }
 }
 
