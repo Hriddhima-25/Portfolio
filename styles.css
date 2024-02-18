@@ -731,26 +731,20 @@ span {
     color: var(--bg-color);
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-        min-width: 768px;
-    }
-}
-
-@media (max-width: 1233px) {
+@media only screen and (max-width: 1233px) {
     .navbar a {
         font-size: 1.6rem;
     }
 }
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     html {
         font-size: 55%;
         overflow-x: hidden;
     }
 }
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     html {
         overflow-x: hidden;
     }
@@ -776,7 +770,7 @@ span {
     }
 }
 
-@media (max-width: 884px) {
+@media only screen and (max-width: 884px) {
     html {
         overflow-x: hidden;
     }
@@ -799,7 +793,7 @@ span {
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     html {
         width: 100vw;
         overflow-x: hidden;
@@ -908,7 +902,7 @@ span {
     }
 } 
 
-@media (max-width: 654px) {
+@media only screen and (max-width: 654px) {
     html {
         font-size: 50%;
     }
