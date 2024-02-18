@@ -944,15 +944,11 @@ span {
     }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 375px) {
 
     body {
         min-width: none;
         overflow-x: hidden;
-    }
-
-    .home-sci a {
-        margin: 0 auto;;
     }
 }
 
