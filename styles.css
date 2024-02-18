@@ -733,10 +733,11 @@ span {
 
 /* breakpoints */
 
+
 @media only screen and (max-width: 1233px) {
 
-    body {
-        min-height: 1233px;
+    html {
+        min-width: 1233px;
     }
     .navbar a {
         font-size: 1.6rem;
@@ -745,22 +746,18 @@ span {
 
 @media only screen and (max-width: 1200px) {
 
-    body {
-        min-height: 1200px;
-    }
     html {
         font-size: 55%;
         overflow-x: hidden;
+        min-width: 1200px;
     }
 }
 
 @media only screen and (max-width: 991px) {
 
-    body {
-        min-height: 991px;
-    }
     html {
         overflow-x: hidden;
+        min-width: 991px;
     }
 
     .header {
@@ -786,11 +783,9 @@ span {
 
 @media only screen and (max-width: 884px) {
 
-    body {
-        min-height: 884px;
-    }
     html {
         overflow-x: hidden;
+        min-width: 884px;
     }
     
     .projects-layer h4 {
@@ -813,12 +808,10 @@ span {
 
 @media only screen and (max-width: 768px) {
 
-    body {
-        min-height: 768px;
-    }
     html {
         width: 100vw;
         overflow-x: hidden;
+        min-width: 768px;
     } 
 
     .btn{
@@ -926,11 +919,9 @@ span {
 
 @media only screen and (max-width: 654px) {
 
-    body {
-        min-height: 654px;
-    }
     html {
         font-size: 50%;
+        min-width: 654px;
     }
 
     #darkMode-icon {
