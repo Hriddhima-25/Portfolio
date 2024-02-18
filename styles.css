@@ -733,12 +733,8 @@ span {
 
 /* breakpoints */
 
-
 @media only screen and (max-width: 1233px) {
 
-    html {
-        min-width: 1233px;
-    }
     .navbar a {
         font-size: 1.6rem;
     }
@@ -749,7 +745,6 @@ span {
     html {
         font-size: 55%;
         overflow-x: hidden;
-        min-width: 1200px;
     }
 }
 
@@ -757,7 +752,6 @@ span {
 
     html {
         overflow-x: hidden;
-        min-width: 991px;
     }
 
     .header {
@@ -785,7 +779,6 @@ span {
 
     html {
         overflow-x: hidden;
-        min-width: 884px;
     }
     
     .projects-layer h4 {
@@ -811,7 +804,6 @@ span {
     html {
         width: 100vw;
         overflow-x: hidden;
-        min-width: 768px;
     } 
 
     .btn{
@@ -856,7 +848,7 @@ span {
     .navbar a {
         display: block;
         font-size: 2rem;
-        margin: 3rem 0;
+        margin: 5rem 0;
     }
 
     .home {
@@ -883,7 +875,7 @@ span {
     .home-sci {
         width: 25rem;
         position: static;
-        margin: 5rem auto;
+        margin: 1rem auto;
     }
  
     .home .home-info .home-content .btn-box {
@@ -921,7 +913,6 @@ span {
 
     html {
         font-size: 50%;
-        min-width: 654px;
     }
 
     #darkMode-icon {
@@ -950,6 +941,14 @@ span {
 
     .projects-layer a i {
         font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+
+    body {
+        min-width: none;
+        overflow-x: hidden;
     }
 }
 
