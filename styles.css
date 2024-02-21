@@ -956,6 +956,17 @@ span {
     .home-sci {
         margin: .1rem auto;
     }
+
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer p{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    
 }
 
 @media only screen and (max-width: 375px) {
