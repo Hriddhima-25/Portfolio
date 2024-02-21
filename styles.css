@@ -813,6 +813,10 @@ span {
         margin-left: 23%;
     }
 
+    .btn-box.btns{
+        margin-right: 10rem;
+    }
+
     .header {
         background: var(--bg-color);
         width: 100vw;
